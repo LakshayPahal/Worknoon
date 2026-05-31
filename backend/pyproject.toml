@@ -1,0 +1,16 @@
+[project]
+name = "worknoon-backend"
+version = "0.1.0"
+description = "Worknoon AI Agent Backend"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi",
+    "langchain-core",
+    "langchain-openai",
+    "langgraph",
+    "pydantic",
+    "python-dotenv",
+    "sqlalchemy",
+    "uvicorn",
+]
